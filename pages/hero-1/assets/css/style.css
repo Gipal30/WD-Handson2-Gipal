@@ -6,7 +6,7 @@
   }
   
   .hero-one{
-    background-image: url("/assets/img/suzuki\ h2r.png");
+    background-image: url("/assets/img/h2rr.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -26,11 +26,13 @@
   
      & .title{
       font-size: 3rem;
+      color: white;
       margin-bottom: 1.5rem;
      }
   
      & .subtitle{
       font-size: 1.5rem;
+      color: white;
       padding-left: 2rem;
       margin-bottom: 1.8rem;
      }
@@ -39,7 +41,7 @@
       font-size: 1.2rem;
       padding-left: 2rem;
       font-style: "Poppins";
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
       font-weight:900;
       margin-bottom: 1rem;
      }
