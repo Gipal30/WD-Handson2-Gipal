@@ -1,94 +1,97 @@
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  html,
-  body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  .container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../img/dark.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    gap: 1rem;
-    text-align: center;
-    padding-bottom: 5rem;
-  }
-  
-  .title {
-    font-size: 7rem;
-    letter-spacing: 1.5rem;
-    color: rgba(0, 252, 231, 0.726);
-  }
-  
-  .subtitle {
-    font-weight: 500;
-    letter-spacing: 1rem;
-    color: white;
-  }
-  
-  .description {
-    letter-spacing: 0.1rem;
-    color: rgb(255, 255, 255);
-    padding-top: 1rem;
-  }
-  
-  .header {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 2rem;
-    gap: 2rem;
-    height: fit-content;
-  }
-  
-  & .btn {
-    background: rgb(255, 255, 255);
-    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.966);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    font-size: 1.2rem;
-    border: 1px solid rgb(255, 255, 255);
-    padding: 0.2rem 0.5rem;
-    border-radius: 3px;
-    font-weight: 700;
-    text-decoration: none;
-    color: var(--color-primary-1);
-    overflow: hidden;
-    transition: all 0.2s ease;
-
-    &:hover {
-        background-color: rgba(0, 252, 231, 0.726);
-        color: #ffffff;
-        border-radius: 20px;
-    }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-    &.active {
-      background: rgba(255, 255, 255, 0.479);
-    }
-  
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/s1000rr.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  gap: 1rem;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.title {
+  font-size: 5rem;
+  letter-spacing: 1.5rem;
+  color: rgb(49, 231, 255);
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  color: white;
+}
+
+.description {
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  padding-top: 1rem;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  gap: 2rem;
+  height: fit-content;
+}
+
+& .btn {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.301);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  font-size: 1.2rem;
+  border: 1px solid rgba(245, 245, 245, 0.212);
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--color-primary-1);
+  overflow: hidden;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: rgba(0, 252, 231, 0.726);
+    color: #ffffff;
+    border-radius: 20px;
+}
+}
+
+  &.active {
+      background: #000000 ;
+  }
