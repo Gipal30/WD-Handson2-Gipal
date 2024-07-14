@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+  }
+  
+  .hero-one{
+    background-image: url("/assets/img/suzuki\ h2r.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    }
+    .container{
+     height: 600px;
+     padding: 20px;
+     margin-left: 40px;
+     margin-right: 40px;
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: space-between;
+     align-items: center;
+     gap: 20px;
+  
+     & .title{
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+     }
+  
+     & .subtitle{
+      font-size: 1.5rem;
+      padding-left: 2rem;
+      margin-bottom: 1.8rem;
+     }
+  
+     & .description{
+      font-size: 1.2rem;
+      padding-left: 2rem;
+      font-style: "Poppins";
+      color: rgb(0, 0, 0);
+      font-weight:900;
+      margin-bottom: 1rem;
+     }
+  
+     & .button{
+      text-decoration: none;
+      display: inline-block;
+      background-color: rgba(0, 252, 231, 0.726);
+      border-radius: 4px;
+      font-size: 1.2rem;
+      padding: .4em 1em;
+      margin-left: 2rem;
+      color: rgb(255, 255, 255);
+  
+     }
+  } 
+  
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+    gap: 2rem;
+    height: fit-content;
+    padding: 1rem 2rem;
+  }
+  
+  & .btn {
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.301);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    font-size: 1.2rem;
+    border: 1px solid rgba(245, 245, 245, 0.212);
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--color-primary-1);
+    overflow: hidden;
+    transition: all 0.2s ease;
+
+    &:hover {
+        background-color: rgba(0, 252, 231, 0.726);
+        color: #ffffff;
+        border-radius: 20px;
+    }
+}
+
+        
+      &.active {
+          background: #000000 ;
+      }

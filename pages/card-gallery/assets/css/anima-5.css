@@ -1,0 +1,66 @@
+.anima-5 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.design-title {
+    font-size: 2.5rem;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.anima-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.anima-5 .img-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.anima-5 .img-container .img-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anima-5 .img-container .img-inner .inner-skew {
+    overflow: hidden;
+    transform: skew(-10deg);
+}
+
+.anima-5 .img-container .img-inner .inner-skew img {
+    width: 100%;
+    transform: skew(10deg);
+    border-radius: 10px;
+}
+
+.anima-5 .text-container {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.anima-5 .btn-gallery {
+    margin-top: 20px;
+}
